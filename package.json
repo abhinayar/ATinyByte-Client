@@ -1,7 +1,7 @@
 {
-  "name": "wild-next",
-  "version": "0.1.0",
-  "description": "Our next.js boilerplate with sane base configuration.",
+  "name": "atinybyte-client",
+  "version": "0.0.1",
+  "description": "A Tiny Byte Web Client - A Daily Text To Expand Your Mind",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +21,7 @@
   "lint-staged": {
     "**/*.js": "eslint --ignore-path .gitignore --ignore-pattern vendor/*"
   },
-  "author": "WILD <weare@wild.as> (https://wild.as)",
+  "author": "Abhi Nayar <hello@atinybyte.com> (https://atinybyte.com)",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
