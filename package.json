@@ -15,7 +15,8 @@
     "lint:js": "npm run lint:eslint -- . ",
     "lint:eslint": "eslint --ignore-path .gitignore --ignore-pattern vendor/*",
     "postinstall": "# cp vendor/gsap/bonus-files-for-npm-users/* node_modules/gsap/",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "heroku-postbuild": "npm run build"
   },
   "lint-staged": {
     "**/*.js": "eslint --ignore-path .gitignore --ignore-pattern vendor/*"
